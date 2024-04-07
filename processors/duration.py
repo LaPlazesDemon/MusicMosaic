@@ -3,7 +3,7 @@ import math
 def msToTimestamp(milliseconds):
     totalSeconds = milliseconds/1000
     totalMinutes = totalSeconds/60
-    totalHours = totalMinutes/60
+    totalHours = math.floor(totalMinutes/60)
 
     if totalHours == 0:
         durationSeconds = math.floor(totalSeconds%60)
@@ -13,7 +13,7 @@ def msToTimestamp(milliseconds):
         if durationSeconds >= 10: cleanSeconds = f"{durationSeconds}"
         else: cleanSeconds = f"0{durationSeconds}"
 
-        return f"{durationMinutes}:${cleanSeconds}"
+        return f"{durationMinutes}:{cleanSeconds}"
 
     else:
         durationSeconds = math.floor(totalSeconds%60)
