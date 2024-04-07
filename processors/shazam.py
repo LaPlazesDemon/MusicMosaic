@@ -2,6 +2,8 @@ from config import config
 
 from processors import audio
 from processors import spotify
+from processors import duration
+
 import base64
 import requests # type: ignore
 
@@ -26,21 +28,26 @@ def SendShazamRequeset(song_buffer):
 
 
 def MatchSpotify(url):
+
     mp3PreviewAudio = spotify.downloadSongPreview(url)
     previewBuffer = audio.convert_encode_mp3(mp3PreviewAudio)
     response = SendShazamRequeset(previewBuffer)
 
+    spotifyInfo = spotify.getSongDetails(spotify.extractTrackId(url))
     trackInformation = response.json()['track']
     openInformation = next((option for option in trackInformation['hub']['options'] if option.get("caption") == "OPEN"), None)
     appleMusicOpenInformation = next((action for action in openInformation['actions'] if action.get("type") == "applemusicopen"), None)
 
     songTitle = trackInformation['title']
     songArtist = trackInformation['subtitle']
+    songDuration = duration.msToTimestamp(spotifyInfo['duration_ms'])
+
     appleMusicOpenLink = appleMusicOpenInformation['uri']
 
     output = {
         "title": songTitle,
         "artist": songArtist,
+        "duration": songDuration,
         "apple_music_link": appleMusicOpenLink,
         "spotify_link": f"https://open.spotify.com/track/{spotify.extractTrackId(url)}"
     }
