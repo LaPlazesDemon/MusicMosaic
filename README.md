@@ -6,7 +6,7 @@ This is a project to get me back into python after not touching it for at least 
 
 ---
 # Current Capbilities
-At the very moment this is a MVP release. It only accepts a Spotify song link and returns the song data and a link to the same song in Apple Music
+At the current moment this is an MVP release. It only accepts a Spotify song link and returns the song data and a link to the same song in Apple Music
 
 **Supported Music Services**
 - Spotify
