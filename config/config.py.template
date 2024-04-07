@@ -1,0 +1,10 @@
+
+shazam = {
+    'key': "<Shazam Key>"
+}
+
+spotify = {
+    "key": "<spotify client secret>",
+    "clientId": "<spotify client id>",
+    "refreshToken": "<spotify refresh token>"
+}
