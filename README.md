@@ -24,10 +24,10 @@ python main.py "<spotify URL>"
 *Output*
 ```json
 {
-    "title": string,
-    "artist": string,
-    "apple_music_link": uri,
-    "spotify_link": uri
+    "title": "string",
+    "artist": "string",
+    "apple_music_link": "uri",
+    "spotify_link": "uri"
 }
 ```
 
