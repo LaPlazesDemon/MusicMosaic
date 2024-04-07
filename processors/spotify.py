@@ -1,10 +1,13 @@
 from config import config
-from processors import shazam
 
 import requests # type: ignore
 import base64
 
 access_token = None
+
+def getSongDetails(track_id):
+    response = requests.get(f'https://api.spotify.com/v1/tracks/{track_id}', headers={'Authorization': f'Bearer {access_token}'})
+    return response.json()
 
 # Pull Track ID from a full URL and remove query parameters
 def extractTrackId(song_url):
@@ -19,7 +22,7 @@ def extractTrackId(song_url):
 def downloadSongPreview(url):
     
     track_id = extractTrackId(url)
-    previewUrl = getTrackDetails(track_id);
+    previewUrl = getPreviewURL(track_id);
 
     response = requests.get(previewUrl)
     if response.status_code == 200:
@@ -29,7 +32,7 @@ def downloadSongPreview(url):
         return False
 
 # Retrieve the Preview URL using the Spotify Web API
-def getTrackDetails(track_id):
+def getPreviewURL(track_id):
     response = requests.get(f"https://api.spotify.com/v1/tracks/{track_id}", headers={"Authorization": f"Bearer {access_token}"})
     data = response.json()
     return data["preview_url"]
