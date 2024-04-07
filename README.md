@@ -14,7 +14,7 @@ At the current moment this is an MVP release. It only accepts a Spotify song lin
 **Planned Music Services**
 - YouTube / YouTube Music
 - Apple Music
-- Tidal[^1] (?)
+- Tidal[^1]
 
 # Usage
 **CLI**
@@ -26,6 +26,7 @@ python main.py "<spotify URL>"
 {
     "title": "string",
     "artist": "string",
+    "duration": "string",
     "apple_music_link": "uri",
     "spotify_link": "uri"
 }
