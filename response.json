@@ -1,0 +1,187 @@
+{
+    "matches": [{
+        "id": "344913014",
+        "offset": 58.173773437,
+        "timeskew": -0.00016224384,
+        "frequencyskew": 0.0
+    }],
+    "timestamp": 1712511269475,
+    "timezone": "America/Chicago",
+    "tagid": "5e3c2c1b-0cee-4277-8a77-b4e3d0d82231",
+    "track": { 
+        "layout": "5",
+        "type": "MUSIC",
+        "key": "341907922",
+        "title": "Escape",
+        "subtitle": "Noisestorm",
+        "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/32/41/16/3241167a-ed05-44c3-1d15-15e21b27a199/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0e/03/ae/0e03ae61-4afe-4f57-9443-7615531a3391/Noisestorm_-_Escape_Art.jpg/400x400cc.jpg",
+            "coverarthq": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0e/03/ae/0e03ae61-4afe-4f57-9443-7615531a3391/Noisestorm_-_Escape_Art.jpg/400x400cc.jpg",
+            "joecolor": "b:020224p:fed6e9s:fdbcd7t:cbacc1q:cb97b3"
+        },
+        "share": {
+            "subject": "Escape - Noisestorm",
+            "text": "Escape by Noisestorm",
+            "href": "https://www.shazam.com/track/341907922/escape",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0e/03/ae/0e03ae61-4afe-4f57-9443-7615531a3391/Noisestorm_-_Escape_Art.jpg/400x400cc.jpg",
+            "twitter": "I used @Shazam to discover Escape by Noisestorm.",
+            "html": "https://www.shazam.com/snippets/email-share/341907922?lang=en-US&country=US",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/32/41/16/3241167a-ed05-44c3-1d15-15e21b27a199/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/341907922"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic_{scalefactor}.png",
+            "actions": [{
+                "name": "apple",
+                "type": "applemusicplay",
+                "id": "1206549264"
+            }, {
+                "name": "apple",
+                "type": "uri",
+                "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/44/7d/6a/447d6af0-b77e-25fd-99c3-d9743b8d1def/mzaf_12084353398093414006.plus.aac.ep.m4a"
+            }],
+            "options": [{
+                "caption": "OPEN",
+                "actions": [{
+                    "name": "hub:applemusic:deeplink",
+                    "type": "applemusicopen",
+                    "uri": "https://music.apple.com/us/album/escape/1206549258?i=1206549264&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }, {
+                    "name": "hub:applemusic:deeplink",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/escape/1206549258?i=1206549264&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }],
+                "beacondata": {
+                    "type": "open",
+                    "providername": "applemusic"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/overflow-open-option_{scalefactor}.png",
+                "type": "open",
+                "listcaption": "Open in Apple Music",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/applemusic-overflow_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "applemusic"
+            }, {
+                "caption": "BUY",
+                "actions": [{
+                    "type": "uri",
+                    "uri": "https://itunes.apple.com/us/album/escape/1206549258?i=1206549264&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=itunes&itsct=Shazam_ios"
+                }],
+                "beacondata": {
+                    "type": "buy",
+                    "providername": "itunes"
+                },
+                "image": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "type": "buy",
+                "listcaption": "Buy on iTunes",
+                "overflowimage": "https://images.shazam.com/static/icons/hub/ios/v5/itunes-overflow-buy_{scalefactor}.png",
+                "colouroverflowimage": false,
+                "providername": "itunes"
+            }],
+            "providers": [{
+                "caption": "Open in Spotify",
+                "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/spotify-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/spotify_{scalefactor}.png"
+                },
+                "actions": [{
+                    "name": "hub:spotify:searchdeeplink",
+                    "type": "uri",
+                    "uri": "spotify:search:Escape%20Noisestorm"
+                }],
+                "type": "SPOTIFY"
+            }, {
+                "caption": "Open in Deezer",
+                "images": {
+                    "overflow": "https://images.shazam.com/static/icons/hub/ios/v5/deezer-overflow_{scalefactor}.png",
+                    "default": "https://images.shazam.com/static/icons/hub/ios/v5/deezer_{scalefactor}.png"
+                },
+                "actions": [{
+                    "name": "hub:deezer:searchdeeplink",
+                    "type": "uri",
+                    "uri": "deezer-query://www.deezer.com/play?query=%7Btrack%3A%27Escape%27%20artist%3A%27Noisestorm%27%7D"
+                }],
+                "type": "DEEZER"
+            }],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+        },
+        "url": "https://www.shazam.com/track/341907922/escape",
+        "artists": [{
+            "id": "42",
+            "adamid": "419653769"
+        }],
+        "isrc": "CA6D21700043",
+        "genres": {
+            "primary": "Alternative"
+        },
+        "urlparams": {
+            "{tracktitle}": "Escape",
+            "{trackartist}": "Noisestorm"
+        },
+        "myshazam": {
+            "apple": {
+                "actions": [{
+                    "name": "myshazam:apple",
+                    "type": "uri",
+                    "uri": "https://music.apple.com/us/album/escape/1206549258?i=1206549264&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_ios&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_ios"
+                }]
+            }
+        },
+        "albumadamid": "1206549258",
+        "sections": [{
+            "type": "SONG",
+            "metapages": [{
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/32/41/16/3241167a-ed05-44c3-1d15-15e21b27a199/pr_source.png/800x800cc.jpg",
+                "caption": "Noisestorm"
+            }, {
+                "image": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0e/03/ae/0e03ae61-4afe-4f57-9443-7615531a3391/Noisestorm_-_Escape_Art.jpg/400x400cc.jpg",
+                "caption": "Escape"
+            }],
+            "tabname": "Song",
+            "metadata": [{
+                "title": "Album",
+                "text": "Escape - Single"
+            }, {
+                "title": "Label",
+                "text": "Monstercat"
+            }, {
+                "title": "Released",
+                "text": "2017"
+            }]
+        }, {
+            "type": "VIDEO",
+            "tabname": "Video",
+            "youtubeurl": {
+                "caption": "Noisestorm - Escape [Monstercat Release]",
+                "image": {
+                    "dimensions": {
+                        "width": 640,
+                        "height": 480
+                    },
+                    "url": "https://i.ytimg.com/vi/IeyQ1zwcTjs/sddefault.jpg"
+                },
+                "actions": [{
+                    "name": "video:youtube",
+                    "type": "webview",
+                    "share": {
+                        "subject": "Escape - Noisestorm",
+                        "text": "Escape by Noisestorm",
+                        "href": "https://www.shazam.com/track/341907922/escape",
+                        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0e/03/ae/0e03ae61-4afe-4f57-9443-7615531a3391/Noisestorm_-_Escape_Art.jpg/400x400cc.jpg",
+                        "twitter": "I used @Shazam to discover Escape by Noisestorm.",
+                        "html": "https://www.shazam.com/snippets/email-share/341907922?lang=-&country=US",
+                        "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/32/41/16/3241167a-ed05-44c3-1d15-15e21b27a199/pr_source.png/800x800cc.jpg",
+                        "snapchat": "https://www.shazam.com/partner/sc/track/341907922"
+                    },
+                    "uri": "https://youtu.be/IeyQ1zwcTjs?autoplay=1"
+                }]
+            }
+        }, {
+            "type": "RELATED",
+            "tabname": "Related"
+        }]
+    }
+}
