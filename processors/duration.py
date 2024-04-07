@@ -2,7 +2,7 @@ import math
 
 def msToTimestamp(milliseconds):
     totalSeconds = milliseconds/1000
-    totalMinutes = totalSeconds/60
+    totalMinutes = math.floor(totalSeconds/60)
     totalHours = math.floor(totalMinutes/60)
 
     if totalHours == 0:
