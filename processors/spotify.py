@@ -45,8 +45,7 @@ def getToken():
 
     requestData = {
         "grant_type": "refresh_token",
-        "refresh_token": config.spotify['refreshToken'],
-        "scope": " ".join(config.spotify['scopes'])
+        "refresh_token": config.spotify['refreshToken']
     }
     
     headers = {
